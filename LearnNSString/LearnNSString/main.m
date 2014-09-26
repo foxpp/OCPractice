@@ -7,12 +7,10 @@
 //
 
 #include <CoreFoundation/CoreFoundation.h>
-
+#import "LearnString.h"
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    CFShow(CFSTR("Hello, World!\n"));
+    [LearnString TestString];
     return 0;
 }
 
