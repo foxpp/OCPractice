@@ -34,4 +34,9 @@
     NSLog(@"%@", subToTest);
     
 }
+
+-(void)TestFromYs
+{
+    NSLog(@"sfsdf");
+}
 @end
