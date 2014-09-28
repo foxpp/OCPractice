@@ -31,4 +31,20 @@
     assert(nil != subString && subString.length > 0);
     return [self rangeOfString:subString].location != NSNotFound;
 }
+
+-(NSString*) trimAll{
+    assert(self);
+    NSCharacterSet *trimSet = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    NSArray * tmpArr = [self componentsSeparatedByCharactersInSet:trimSet];
+    return  [tmpArr componentsJoinedByString:@""];
+}
+-(BOOL)hasNoCharacter{
+    assert(self);
+    NSString *trimed = [self trimAll];
+    return 0 == trimed.length;
+}
+-(BOOL)isEmpty{
+    assert(self);
+    return 0 == self.length;
+}
 @end

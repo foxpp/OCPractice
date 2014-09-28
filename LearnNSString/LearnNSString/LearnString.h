@@ -14,4 +14,7 @@
 -(NSString*)reverseString;
 -(NSArray*)splitByToken:(NSString *) separatorSet;
 -(BOOL) hasSubString:(NSString *) subString;
+-(NSString*) trimAll;
+-(BOOL)hasNoCharacter;
+-(BOOL)isEmpty;
 @end
