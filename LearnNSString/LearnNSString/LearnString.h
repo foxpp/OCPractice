@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LearnString : NSObject
-+(void)TestString;
+
+@interface NSString (Reverse)
+//+(NSString*) reverseString: (NSString *)src;
+-(NSString*)reverseString;
+-(NSArray*)splitByToken:(NSString *) separatorSet;
+-(BOOL) hasSubString:(NSString *) subString;
 @end
