@@ -9,12 +9,20 @@
 #import <Foundation/Foundation.h>
 
 
-@interface NSString (Reverse)
-//+(NSString*) reverseString: (NSString *)src;
+
+
+@interface NSString (NSStringPlus)
+
 -(NSString*)reverseString;
 -(NSArray*)splitByToken:(NSString *) separatorSet;
 -(BOOL) hasSubString:(NSString *) subString;
 -(NSString*) trimAll;
 -(BOOL)hasNoCharacter;
 -(BOOL)isEmpty;
+- (BOOL)isValidEmail;
+- (NSString *)md5Encrypt;
+-(NSArray*)getWords;
+- (NSString *) transToPinYin;
+-(BOOL)hasChinese;
 @end
+

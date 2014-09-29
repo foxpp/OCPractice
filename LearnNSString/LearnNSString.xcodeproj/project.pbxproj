@@ -33,6 +33,8 @@
 		A03823E619D52C4900D597DA /* LearnNSString.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LearnNSString.1; sourceTree = "<group>"; };
 		A03823ED19D52D9D00D597DA /* LearnString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnString.h; sourceTree = "<group>"; };
 		A03823EE19D52D9D00D597DA /* LearnString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnString.m; sourceTree = "<group>"; };
+		A06B088319D8149D00ECF2F4 /* test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = test.rtf; sourceTree = "<group>"; };
+		A06B088519D8150900ECF2F4 /* ys.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ys.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,18 @@
 				A03823E619D52C4900D597DA /* LearnNSString.1 */,
 				A03823ED19D52D9D00D597DA /* LearnString.h */,
 				A03823EE19D52D9D00D597DA /* LearnString.m */,
+				A06B088319D8149D00ECF2F4 /* test.rtf */,
+				A06B088419D814FE00ECF2F4 /* Resource */,
 			);
 			path = LearnNSString;
+			sourceTree = "<group>";
+		};
+		A06B088419D814FE00ECF2F4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A06B088519D8150900ECF2F4 /* ys.rtf */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
