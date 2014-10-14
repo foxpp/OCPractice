@@ -7,11 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-struct T
-{
-    int a;
-    int b;
-};
+
 @class A;
 @class B;
 @class AChild;
@@ -48,7 +44,6 @@ struct T
 
 @interface ManyNodes : Node
 @property NSString *arrname;
-@property struct T a;
 @property NSMutableArray *children;
 -(void)acceptVisitor:(id<Visitor>)visitor;
 @end

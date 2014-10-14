@@ -9,7 +9,7 @@
 #include <CoreFoundation/CoreFoundation.h>
 #import "FuckNode.h"
 #import "TemplateMethod.h"
-
+#import "ResponsiblityChain.h"
 void TestVisitor()
 {
     VisitorImp1 *vistor = [VisitorImp1 new];
@@ -36,9 +36,18 @@ void TestTemplateMethod()
     [tmp makeIt];
 }
 
+void TestChain()
+{
+    ResponsiblityChain *a1 = [A1 new];
+    ResponsiblityChain *a2 = [A2 new];
+    ResponsiblityChain *a3 = [A3 new];
+    a1.next = a2;
+    a2.next = a3;
+    [a1 HandleRequest:200];
+}
 int main(int argc, const char * argv[])
 {
-    TestTemplateMethod();
+    TestChain();
     return 0;
 }
 
