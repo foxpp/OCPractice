@@ -43,8 +43,9 @@ void TestChain()
     ResponsiblityChain *a3 = [A3 new];
     a1.next = a2;
     a2.next = a3;
-    [a1 HandleRequest:200];
+    [a1 HandleIt:300];
 }
+
 int main(int argc, const char * argv[])
 {
     TestChain();

@@ -10,25 +10,17 @@
 
 @interface ResponsiblityChain : NSObject
 @property ResponsiblityChain *next;
--(void)HandleRequest:(int) reqNum;
+-(void)HandleIt:(int)reqNum;
 @end
 
 @interface A1 : ResponsiblityChain
--(void)HandleRequest:(int) reqNum;
 @end
 @interface A2 : ResponsiblityChain
--(void)HandleRequest:(int) reqNum;
 @end
 @interface A3 : ResponsiblityChain
--(void)HandleRequest:(int) reqNum;
 @end
 @interface A4 : ResponsiblityChain
--(void)HandleRequest:(int) reqNum;
 @end
 @interface A5 : ResponsiblityChain
--(void)HandleRequest:(int) reqNum;
 @end
 
-@interface StopChain : NSObject
--(void)HandleRequest:(int) reqNum;
-@end
