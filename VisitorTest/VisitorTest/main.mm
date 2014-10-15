@@ -7,7 +7,7 @@
 //
 
 #include <CoreFoundation/CoreFoundation.h>
-#import "FuckNode.h"
+#import "Visitor.h"
 #import "TemplateMethod.h"
 #import "ResponsiblityChain.h"
 #import "Singleton.h"

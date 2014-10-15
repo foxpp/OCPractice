@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 zhaochao. All rights reserved.
 //
 
-#import "FuckNode.h"
+#import "Visitor.h"
 
 
 @implementation Node
