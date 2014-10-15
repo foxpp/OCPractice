@@ -10,6 +10,7 @@
 #import "FuckNode.h"
 #import "TemplateMethod.h"
 #import "ResponsiblityChain.h"
+#import "Singleton.h"
 void TestVisitor()
 {
     VisitorImp1 *vistor = [VisitorImp1 new];
@@ -44,11 +45,23 @@ void TestChain()
     a1.next = a2;
     a2.next = a3;
     [a1 HandleIt:300];
+    [a1 HandleIt:10];
+    [a1 HandleIt:1];
 }
 
+void TestSingleton()
+{
+    Singleton *t1 = [Singleton sharedInstance];
+    Singleton *t2 = [Singleton sharedInstance];
+    assert(t1 == t2);
+    Singleton *another = [Singleton anotherSharedInstc];
+    Singleton *another2 = [Singleton anotherSharedInstc];
+    assert(another == another2);
+}
 int main(int argc, const char * argv[])
 {
-    TestChain();
+   // TestChain();
+    TestSingleton();
     return 0;
 }
 
