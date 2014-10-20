@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A0D50E7A19F4E918009B2163 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D50E7919F4E918009B2163 /* CoreFoundation.framework */; };
-		A0D50E7D19F4E918009B2163 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A0D50E7C19F4E918009B2163 /* main.c */; };
 		A0D50E7F19F4E918009B2163 /* DP_PRACTICE.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D50E7E19F4E918009B2163 /* DP_PRACTICE.1 */; };
+		A0D50E8E19F4E99D009B2163 /* ResponsiblityChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D50E8619F4E99D009B2163 /* ResponsiblityChain.m */; };
+		A0D50E8F19F4E99D009B2163 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D50E8819F4E99D009B2163 /* Singleton.m */; };
+		A0D50E9019F4E99D009B2163 /* TemplateMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D50E8A19F4E99D009B2163 /* TemplateMethod.m */; };
+		A0D50E9119F4E99D009B2163 /* Visitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D50E8C19F4E99D009B2163 /* Visitor.m */; };
+		A0D50E9219F4E99D009B2163 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = A0D50E8D19F4E99D009B2163 /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +32,16 @@
 /* Begin PBXFileReference section */
 		A0D50E7619F4E918009B2163 /* DP_PRACTICE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DP_PRACTICE; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D50E7919F4E918009B2163 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		A0D50E7C19F4E918009B2163 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A0D50E7E19F4E918009B2163 /* DP_PRACTICE.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DP_PRACTICE.1; sourceTree = "<group>"; };
+		A0D50E8519F4E99D009B2163 /* ResponsiblityChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponsiblityChain.h; path = ../../../../copy/ResponsiblityChain.h; sourceTree = "<group>"; };
+		A0D50E8619F4E99D009B2163 /* ResponsiblityChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponsiblityChain.m; path = ../../../../copy/ResponsiblityChain.m; sourceTree = "<group>"; };
+		A0D50E8719F4E99D009B2163 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = ../../../../copy/Singleton.h; sourceTree = "<group>"; };
+		A0D50E8819F4E99D009B2163 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Singleton.m; path = ../../../../copy/Singleton.m; sourceTree = "<group>"; };
+		A0D50E8919F4E99D009B2163 /* TemplateMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateMethod.h; path = ../../../../copy/TemplateMethod.h; sourceTree = "<group>"; };
+		A0D50E8A19F4E99D009B2163 /* TemplateMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemplateMethod.m; path = ../../../../copy/TemplateMethod.m; sourceTree = "<group>"; };
+		A0D50E8B19F4E99D009B2163 /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Visitor.h; path = ../../../../copy/Visitor.h; sourceTree = "<group>"; };
+		A0D50E8C19F4E99D009B2163 /* Visitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Visitor.m; path = ../../../../copy/Visitor.m; sourceTree = "<group>"; };
+		A0D50E8D19F4E99D009B2163 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = ../../../../copy/main.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +84,15 @@
 		A0D50E7B19F4E918009B2163 /* DP_PRACTICE */ = {
 			isa = PBXGroup;
 			children = (
-				A0D50E7C19F4E918009B2163 /* main.c */,
+				A0D50E8519F4E99D009B2163 /* ResponsiblityChain.h */,
+				A0D50E8619F4E99D009B2163 /* ResponsiblityChain.m */,
+				A0D50E8719F4E99D009B2163 /* Singleton.h */,
+				A0D50E8819F4E99D009B2163 /* Singleton.m */,
+				A0D50E8919F4E99D009B2163 /* TemplateMethod.h */,
+				A0D50E8A19F4E99D009B2163 /* TemplateMethod.m */,
+				A0D50E8B19F4E99D009B2163 /* Visitor.h */,
+				A0D50E8C19F4E99D009B2163 /* Visitor.m */,
+				A0D50E8D19F4E99D009B2163 /* main.mm */,
 				A0D50E7E19F4E918009B2163 /* DP_PRACTICE.1 */,
 			);
 			path = DP_PRACTICE;
@@ -129,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D50E7D19F4E918009B2163 /* main.c in Sources */,
+				A0D50E9219F4E99D009B2163 /* main.mm in Sources */,
+				A0D50E9019F4E99D009B2163 /* TemplateMethod.m in Sources */,
+				A0D50E8F19F4E99D009B2163 /* Singleton.m in Sources */,
+				A0D50E9119F4E99D009B2163 /* Visitor.m in Sources */,
+				A0D50E8E19F4E99D009B2163 /* ResponsiblityChain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +261,7 @@
 				A0D50E8419F4E918009B2163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

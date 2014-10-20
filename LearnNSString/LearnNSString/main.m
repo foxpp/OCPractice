@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[])
 {
     NSString *str = @"a b c test the set for nsstring a b c";
-    NSArray
+    NSString *trimed  = [str getWords];
     return 0;
 }
 

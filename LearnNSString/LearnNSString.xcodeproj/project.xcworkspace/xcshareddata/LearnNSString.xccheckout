@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>46385859-7D54-4D07-B7B3-F108FC21A754</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LearnNSString</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>88F88E4D-FA50-4A55-9784-CC4BA893DEBE</key>
+		<string>ssh://github.com/foxpp/OCPractice</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LearnNSString/LearnNSString.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>88F88E4D-FA50-4A55-9784-CC4BA893DEBE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/foxpp/OCPractice</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>88F88E4D-FA50-4A55-9784-CC4BA893DEBE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>88F88E4D-FA50-4A55-9784-CC4BA893DEBE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OCPractice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
